@@ -6,7 +6,7 @@ var port = process.env.PORT || 3000;
 
 ////////////import modules//////////
 var index = require('./routes/index');
-
+var initializeDB = require('./db/connection').initializeDB;
 
 
 //////////// config /////////////
@@ -23,7 +23,8 @@ app.use('/', index);
 
 
 
-
+/////// DB ////////
+initializeDB();
 
 
 
