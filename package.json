@@ -1,0 +1,44 @@
+{
+  "name": "disko",
+  "version": "0.5.0",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "nodemon": "^1.9.1",
+    "passport": "^0.3.2",
+    "passwordless": "^1.1.1",
+    "passwordless-tokenstore": "0.0.10",
+    "pg": "^4.5.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "Kyle Johnson, Cari Tan, Russel Pipal, Peter Lilja-Sheeley, Lisa Mabley",
+  "license": "ISC",
+  "description": "Demographic A Index of Species Knowledge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/TeamDisko.git"
+  },
+  "keywords": [
+    "DISKo",
+    "index",
+    "species"
+  ],
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/TeamDisko/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/TeamDisko#readme"
+}
