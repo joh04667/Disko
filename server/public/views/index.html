@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
   <head>
     <meta charset="utf-8">
     <title>MEAN stack app</title>
@@ -9,6 +9,8 @@
     <script src="assets/scripts/client.min.js"></script>
   </head>
   <body>
-    
+    <div ng-controller="MainController as main">
+      <md-button class="md-primary md-raised" ng-click="main.downloadAlert()">
+    </md-button>
   </body>
 </html>

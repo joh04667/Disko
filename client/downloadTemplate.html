@@ -1,0 +1,27 @@
+<md-dialog aria-label="Download the data"  ng-cloak>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Download the Data</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        <h2>Please fill in the form to download the data</h2>
+      </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <md-button ng-click="downloadCancel()">
+        Cancel
+      </md-button>
+      <span flex></span>
+      <md-button ng-click="downloadSubmit()">
+        Submit
+      </md-button>    
+    </md-dialog-actions>
+  </form>
+</md-dialog>
