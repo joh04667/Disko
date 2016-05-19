@@ -21,7 +21,6 @@ function initializeDB(){
 
         var query = client.query(
           'CREATE TABLE IF NOT EXISTS species_list(' +
-          'id SERIAL PRIMARY KEY,' +
           'species varchar(255) NOT NULL,' +
           '"class" varchar(255) NOT NULL,' +
           '"order" varchar(255),' +
@@ -47,7 +46,7 @@ function initializeDB(){
     });
    }
 
- 
+
 
  module.exports.connectionString = connectionString;
  module.exports.initializeDB = initializeDB;
